@@ -7,7 +7,9 @@ var discountPrecent = ((listingPrice - sellingPrice) / listingPrice) * 100;
 
 
 
-console.log("Discount percentage is :" + discountPrecent);
+console.log("Discount percentage is :" +  discountPrecent);
 
+displayDiscountPercentage = Math.round( discountPrecent);
 
+console.log(displayDiscountPercentage + "% off");
 
